@@ -1,13 +1,15 @@
 body {
   font-family: 'Anaheim';
   font-size: 1.2em;
+  color: white;
 }
 
 #outside {
-  background-image: url(images/sv.jpg);
+  background-image: url(images/al.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  opacity: 0.9;
   
 }
 
@@ -22,17 +24,14 @@ form {
   margin: 0 auto;
   width: 60%;
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 2px solid;
   border-radius: 1em;
   
 }
-#survey-form {
-  background-image: url(images/ss.png);
-  opacity: 0.8;
-}
+
 
 fieldset { 
-  border:2px solid black;
+  border:2px solid white;
   margin: 10px;
  }
 
@@ -53,6 +52,9 @@ legend {
 #dropdown{
   height: 45px;
 
+}
+#course{
+    height: 35px;
 }
 
 div + div {
